@@ -1,0 +1,15 @@
+.project-card {
+  transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+}
+
+.img-zoom {
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover .img-zoom {
+  transform: scale(1.05);
+}

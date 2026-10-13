@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Bion Clash",
+    "subtitle": "Gameplay & Systems Engineer",
+    "year": "2024",
+    "tags": ["Unreal Engine", "C++", "Steam"],
+    "description": "Action-packed multiplayer/singleplayer game. Engineered core gameplay frameworks, optimized physics, and integrated modular C++ plugins.",
+    "thumbnail": "assets/images/games/bion-clash.jpg",
+    "links": {
+      "Steam Store": "https://store.steampowered.com/app/2757510/Bion_Clash/"
+    }
+  },
+  {
+    "title": "Denbora",
+    "subtitle": "Software Engineer",
+    "year": "2023",
+    "tags": ["Unreal Engine", "C++", "Steam"],
+    "description": "Atmospheric time-manipulation experience built with custom C++ mechanics and optimized UE rendering features.",
+    "thumbnail": "assets/images/games/denbora.jpg",
+    "links": {
+      "Steam Store": "https://store.steampowered.com/app/2325840/Denbora/"
+    }
+  },
+  {
+    "title": "Oblivio",
+    "subtitle": "Systems Programmer",
+    "year": "2022",
+    "tags": ["Unreal Engine", "C++", "Steam"],
+    "description": "Designed core logic loops, interactive UI systems, and robust backend communications.",
+    "thumbnail": "assets/images/games/oblivio.jpg",
+    "links": {
+      "Steam Store": "https://store.steampowered.com/app/2211340/Oblivio/"
+    }
+  },
+  {
+    "title": "The Prison",
+    "subtitle": "Unreal Engine Specialist",
+    "year": "2022",
+    "tags": ["Unreal Engine", "C++", "Steam"],
+    "description": "Integrated complex objective and quest management systems, environment interactions, and engine-level optimizations.",
+    "thumbnail": "assets/images/games/the-prison.jpg",
+    "links": {
+      "Steam Store": "https://store.steampowered.com/app/1889920/The_Prison/"
+    }
+  },
+  {
+    "title": "Unannounced Oneiric Escape Room",
+    "subtitle": "Lead / Gameplay Engineer (Client Project)",
+    "year": "2024 - Present",
+    "tags": ["Unreal Engine", "C++", "NDA / Commercial"],
+    "description": "Arabic-inspired escape room title featuring intricate physical puzzle mechanics, atmospheric lighting setups, and dynamic C++ interaction systems.",
+    "thumbnail": "assets/images/games/arabic-escape.jpg",
+    "links": {}
+  }
+]
