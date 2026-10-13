@@ -4,7 +4,7 @@
 		"subtitle": "Level Up Game Jam",
 		"year": "2022",
 		"tags": ["Unity", "C#"],
-		"description": "Juego de rescate de exploradores espaciales con mecánicas de IA de movilidad reducida creado bajo estrictas restricciones de tiempo de jam.",
+		"description": "Este juego se desarrolló con Unity (como requisito de la Jam) por Arnau Frago, Claudi Weather, Álvaro Lombera y Fran Moreno entre el 23 y el 29 de mayo de 2022 durante la <a href=\"https://itch.io/jam/level-up-game-jam\" target=\"_blank\"><i>Level Up Game Jam</i></a>. El tema de esta jam fue <i>Element of chance</i>. En el juego eres un guardián espacial que acaba de llegar a un planeta con la misión de rescatar tantas especies animales locales como sea posible. Sin embargo, tendrás que recuperar todas las piezas perdidas de tu nave espacial, que se estrelló al llegar al planeta, y marcharte antes de que un asteroide impacte contra él. Mientras tanto, tendrás que lidiar con la IA integrada en tu vehículo personal de movilidad, que se dañó durante el accidente y a veces falla al intentar seleccionar un eje de movimiento.",
 		"thumbnail": "assets/images/academic/imminentimpact.jpg",
 		"links": {
 			"Página de la Jam": "https://itch.io/jam/level-up-game-jam/rate/1551967",
@@ -17,7 +17,7 @@
 		"subtitle": "Global Game Jam 2022 (Tecnocampus Mataró)",
 		"year": "2022",
 		"tags": ["JavaScript"],
-		"description": "Juego 1v1 donde juegas como Dios y emparejas personas para que sus descendientes combinen rasgos y cumplan objetivos.",
+		"description": "Este juego se desarrolló en JavaScript puro por Javi Agenjo, Carlos Martínez, Roger Montané, Carles Rigat, Miguel Llaneli y Fran Moreno entre el 28 y el 30 de enero de 2022 durante la <a href=\"https://globalgamejam.org/2022/jam-sites/tecnocampus-matar%C3%B3\" target=\"_blank\"><i>Global Game Jam 2022 (Tecnocampus Mataró)</i></a>. En este juego 1 contra 1, tienes que «hacer de Dios» y emparejar personas de tal manera que sus hijos puedan combinar los rasgos de sus padres y cumplir una serie de objetivos. Tendrás que ser el Dios más hábil si quieres vencer a tu oponente.",
 		"thumbnail": "assets/images/academic/familyties.jpg",
 		"links": {
 			"Página de la Jam": "https://globalgamejam.org/2022/games/affection-duality-project-5",
@@ -30,7 +30,7 @@
 		"subtitle": "Spooktober Jam 2021",
 		"year": "2021",
 		"tags": ["Unreal Engine"],
-		"description": "Roguelike con perspectiva cenital en el que debes desmantelar un esquema piramidal vampírico bajo la temática 'Sacrificio'.",
+		"description": "Este juego se desarrolló con <i>Unreal Engine</i> por Anthony DiMarco, Jon Hinton, Kika Vasiljev y Fran Moreno entre el 24 y el 31 de octubre de 2021 durante la <a href=\"https://itch.io/jam/spooktober-jam-2021\" target=\"_blank\">🎃 <i>Spooktober Jam</i> 🎃</a>. Aunque el tema principal (obvio) de esta jam fue <i>Halloween</i>, la temática fue <i>Sacrificio</i>. Es un roguelike de vista cenital en el que debes acabar con un esquema piramidal vampírico.",
 		"thumbnail": "assets/images/academic/bloodsuckers.jpg",
 		"links": {
 			"Página de la Jam": "https://skeletonium.itch.io/bloodsuckersincorporated"
@@ -41,7 +41,7 @@
 		"subtitle": "Proyecto de Entrenamiento de Motor",
 		"year": "2021",
 		"tags": ["Unity"],
-		"description": "Emulación de un duelo de insultos de The Secret of Monkey Island desarrollado con el propósito exclusivo de formarse en Unity.",
+		"description": "Este juego es una emulación de un duelo de insultos de <i>The Secret of Monkey Island</i>, desarrollada con el único objetivo de practicar con el motor <i>Unity</i>.",
 		"thumbnail": "assets/images/academic/monkeyisland.jpg",
 		"links": {
 			"Github": "https://github.com/wazyen/monkeyisland",
@@ -54,7 +54,7 @@
 		"subtitle": "Global Game Jam 2021 (Barcelona)",
 		"year": "2021",
 		"tags": ["Unity"],
-		"description": "Ligeramente inspirado en Untitled Goose Game; ayuda a la protagonista a encontrar objetos escondidos por su travieso gatito.",
+		"description": "Este juego se desarrolló con <i>Unity</i> por Red Calcifer, Sidney Salmeron, Kotzi, Sara y Fran Moreno entre el 29 y el 31 de enero de 2021 durante la <a href=\"https://globalgamejam.org/2021/jam-sites/game-jam-barcelona-upc-2021\" target=\"_blank\"><i>Global Game Jam 2021 (Barcelona)</i></a>. El tema de esta jam fue <i>Lost &amp; Found</i>. En este juego, ligeramente inspirado en <i>Untitled Goose Game</i>, el jugador debe ayudar a la protagonista, que acaba de despertarse, a encontrar todas las cosas que necesita para su día a día y que su travieso gatito ha escondido. De lo contrario, no llegará a su cita, tan importante para ella.",
 		"thumbnail": "assets/images/academic/badkitty.jpg",
 		"links": {
 			"Página de la Jam": "https://globalgamejam.org/2021/games/bad-kitty-3",
@@ -67,7 +67,7 @@
 		"subtitle": "Universitat Pompeu Fabra (Jocs Electrònics)",
 		"year": "2019",
 		"tags": ["C++", "Visual Studio 2019"],
-		"description": "Juego cooperativo de sigilo y escape para 2 jugadores inspirado en A Way Out, donde prisioneros fugados evaden a los guardias.",
+		"description": "Este juego se desarrolló con <i>Visual Studio 2019</i> por Francisco Mesas y Fran Moreno entre abril y junio de 2019 como proyecto final de la asignatura <i>Jocs Electrònics</i> en la <i>Universitat Pompeu Fabra</i>. En este juego para 2 jugadores, inspirado en <i>A Way Out</i>, dos prisioneros acaban de escapar de la cárcel y han terminado en un pueblo aparentemente desierto que, en realidad, está lleno de guardias. Ahora el objetivo es esquivar a los guardias y escapar del pueblo.",
 		"thumbnail": "assets/images/academic/villageescape.jpg",
 		"links": {
 			"Github": "https://github.com/wazyen/villageescape",
@@ -79,7 +79,7 @@
 		"subtitle": "Universitat Pompeu Fabra (Jocs Electrònics)",
 		"year": "2019",
 		"tags": ["C++", "Visual Studio 2019"],
-		"description": "Juego 2D con resolución de 128x128 bajo la temática 'FAMILIA', ayudando a una mamá pata a cruzar el río.",
+		"description": "Este juego se desarrolló con <i>Visual Studio 2019</i> por Fran Moreno durante abril de 2019 como introducción a la asignatura <i>Jocs Electrònics</i> en la <i>Universitat Pompeu Fabra</i>. Hicimos una pequeña «jam» de dos semanas en la que teníamos que desarrollar un videojuego 2D con la temática <i>FAMILIA</i>, con la restricción de que debía tener una resolución de 128x128 píxeles. En este juego, el jugador debe ayudar a una mamá pata a cruzar un río en busca de comida mientras mantiene a salvo a sus patitos.",
 		"thumbnail": "assets/images/academic/duckyduckduck.jpg",
 		"links": {
 			"Github": "https://github.com/wazyen/duckyduckduck",
@@ -91,7 +91,7 @@
 		"subtitle": "Proyecto de Programación Paralela y Distribuida",
 		"year": "2018",
 		"tags": ["C++", "Qt Creator", "Computación Paralela"],
-		"description": "Juego de arena multijugador p2p en línea desarrollado utilizando programación paralela.",
+		"description": "Este juego se desarrolló con <i>Qt Creator</i> por Diego Sáez, Alba Posas, Francisco Mesas y Fran Moreno entre abril y junio de 2018 como proyecto final de la asignatura <i>Introducción a la Programación Paralela y Distribuida</i> en la <i>Universitat Pompeu Fabra</i>. El objetivo del proyecto era crear cualquier tipo de aplicación que implementara alguna funcionalidad relacionada con la programación paralela, así que decidimos crear un pequeño videojuego multijugador en línea, ligeramente inspirado en <i>Digimon Rumble Arena</i> de <i>PSX</i>. En este videojuego para entre 2 y 4 jugadores, cada jugador luchará contra los demás con su propia versión de Donald Trump para decidir quién hará que Estados Unidos vuelva a ser grande.",
 		"thumbnail": "assets/images/academic/pumptrump.jpg",
 		"links": {
 			"Bitbucket": "https://bitbucket.org/wazyen/pumptrump/src/master/",
@@ -104,7 +104,7 @@
 		"subtitle": "Entrenamiento para el Trabajo de Investigación de Bachillerato",
 		"year": "2015",
 		"tags": ["App Inventor"],
-		"description": "Primer videojuego creado: una versión de Pong ambientada en Dragon Ball desarrollada mediante programación basada en bloques.",
+		"description": "Este puede considerarse el primer videojuego que he creado. Se desarrolló con <i>App Inventor</i> de MIT durante agosto de 2015. En aquel momento hacía proyectos sencillos con este software para familiarizarme con él, ya que iba a utilizarlo en mi Trabajo de Investigación de Bachillerato. Es un programa muy sencillo para crear aplicaciones dirigido a personas con pocos conocimientos de programación. El estilo de programación se basa en conectar bloques como si fueran piezas de un puzle, de forma muy similar a <i>Scratch</i>. El videojuego es una versión de <i>Pong</i>, el conocido juego, ambientada en <i>Dragon Ball</i>. El objetivo principal es conseguir la puntuación más alta posible golpeando la pared del oponente. Si la pelota golpea tu pared, tendrás que empezar de nuevo.",
 		"thumbnail": "assets/images/academic/dragonballpong.png",
 		"links": {
 			"Descargar APK": "https://drive.google.com/file/d/1VrL84OBt5Nz-CiBIiPDBxtjIftbiSq8I/view?usp=sharing"

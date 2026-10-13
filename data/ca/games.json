@@ -4,7 +4,7 @@
 		"subtitle": "Enginyer de Gameplay & Sistemes",
 		"year": "2026",
 		"tags": ["Unreal Engine", "C++", "Puzles", "Un jugador"],
-		"description": "Títol d'escape room d'inspiració àrab amb intricades mecàniques de puzles físics, il·luminació atmosfèrica i sistemes dinàmics d'interacció en C++.",
+		"description": "Aquest joc encara no anunciat és una aventura de tipus escape room d'inspiració àrab en què el jugador haurà de resoldre enigmes en un palau oníric per desvelar-ne els misteris. En aquest joc em vaig encarregar principalment de tasques de disseny de nivells i manteniment.",
 		"thumbnail": "assets/images/games/unannounced.png",
 		"links": {}
 	},
@@ -13,7 +13,7 @@
 		"subtitle": "Enginyer de Gameplay & Sistemes",
 		"year": "2025-26",
 		"tags": ["Unreal Engine", "C++", "Steam", "MMO", "Social"],
-		"description": "Joc d'acció multijugador i un jugador. Desenvolupament d'arquitectures centrals de gameplay, optimització de físiques i integració de plugins modulars en C++.",
+		"description": "Bion Clash és un MMO social del gènere party royale. Està ambientat en un món low-poly inspirat en <i>Futurama</i>, on els jugadors poden explorar, socialitzar i fins i tot competir en minijocs frenètics. Aquest joc utilitza la majoria dels sistemes modulars i reutilitzables en què vaig treballar per a The Prison. A més, em vaig encarregar de la programació del gameplay, així com del backend i del manteniment del joc.",
 		"thumbnail": "assets/images/games/bionclash.png",
 		"links": {
 			"Botiga de Steam": "https://store.steampowered.com/app/2757510/Bion_Clash/"
@@ -24,7 +24,7 @@
 		"subtitle": "Enginyer de Gameplay & Sistemes",
 		"year": "2025-26",
 		"tags": ["Unreal Engine", "C++", "Steam", "Un jugador", "Narratiu"],
-		"description": "Disseny de bucles lògics principals, sistemes interactius d'interfície d'usuari i comunicacions robustes amb backend.",
+		"description": "Oblivio és un joc amb una forta càrrega narrativa, molt inspirat en <i>Les aventures d'Alícia al país de les meravelles</i>. Explica la història d'una persona que pateix Alzheimer i veu com els seus records s'esvaeixen. En aquest joc em vaig encarregar principalment de la programació del gameplay i de tasques de manteniment.",
 		"thumbnail": "assets/images/games/oblivio.png",
 		"links": {
 			"Botiga de Steam": "https://store.steampowered.com/app/2211340/Oblivio/"
@@ -35,7 +35,7 @@
 		"subtitle": "Enginyer de Gameplay & Sistemes",
 		"year": "2024-25",
 		"tags": ["Unreal Engine", "C++", "Steam", "Un jugador", "Puzles"],
-		"description": "Experiència atmosfèrica de manipulació temporal desenvolupada amb mecàniques personalitzades en C++ i característiques optimitzades de renderització a UE.",
+		"description": "Denbora és un joc de puzles molt inspirat en <i>Portal</i> en què, en lloc de portals, els jugadors han de fer salts temporals entre dos moments per resoldre cambres de proves. Per aconseguir-ho, hauran d'entendre com les accions del passat afecten el futur, però no a l'inrevés. En aquest joc em vaig encarregar principalment de programar les mecàniques de gameplay, a més de tasques de manteniment i control de qualitat.",
 		"thumbnail": "assets/images/games/denbora.png",
 		"links": {
 			"Botiga de Steam": "https://store.steampowered.com/app/2325840/Denbora/"
@@ -46,10 +46,11 @@
 		"subtitle": "Enginyer de Gameplay & Sistemes",
 		"year": "2022-26",
 		"tags": ["Unreal Engine", "C++", "Steam", "MMO", "Social"],
-		"description": "Integració de sistemes complexos de gestió de missions i objectius, interaccions amb l'entorn i optimitzacions a nivell de motor.",
+		"description": "Basat en <i>La prisión</i> de <i>Dinamic Multimedia</i>, The Prison és un MMO social ambientat en una presó, on els jugadors han de forjar aliances i lluitar entre ells per aconseguir el control del territori. En aquest projecte em vaig encarregar del disseny de l'arquitectura i la implementació dels sistemes de Missions i Faccions, així com del manteniment dels sistemes existents. Les tasques realitzades abasten tot el cicle de vida de les dades: des de la base de dades que les emmagatzema i el backend que les serveix fins a l'aplicació d'Unreal Engine que les genera i representa.",
 		"thumbnail": "assets/images/games/theprison.png",
 		"links": {
-			"Botiga de Steam": "https://store.steampowered.com/app/1889920/The_Prison/"
+			"Botiga de Steam": "https://store.steampowered.com/app/1889920/The_Prison/",
+			"Tràiler": "https://www.youtube.com/watch?v=z6qzRTyOC6A"
 		}
 	}
 ]

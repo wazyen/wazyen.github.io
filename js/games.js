@@ -26,7 +26,7 @@ export function loadGames(lang = getCurrentLanguage()) {
 				clone.querySelector('[data-title]').textContent = g.title;
 				clone.querySelector('[data-year]').textContent = g.year;
 				clone.querySelector('[data-subtitle]').textContent = g.subtitle;
-				clone.querySelector('[data-description]').textContent = g.description;
+				clone.querySelector('[data-description]').innerHTML = g.description;
 
 				const tagsContainer = clone.querySelector('[data-tags]');
 				if (tagsContainer && Array.isArray(g.tags)) {
@@ -43,7 +43,7 @@ export function loadGames(lang = getCurrentLanguage()) {
 						const a = document.createElement('a');
 						a.href = url;
 						a.target = "_blank";
-						a.className = "inline-flex items-center gap-1 text-xs font-semibold text-indigo-400 hover:text-indigo-300";
+						a.className = "inline-flex items-center gap-1 text-xs font-semibold text-indigo-400 hover:text-indigo-300 mr-3";
 						a.innerHTML = `${label} <i data-lucide="external-link" class="w-3.5 h-3.5"></i>`;
 						linksContainer.appendChild(a);
 					});

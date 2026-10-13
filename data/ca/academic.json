@@ -4,7 +4,7 @@
 		"subtitle": "Level Up Game Jam",
 		"year": "2022",
 		"tags": ["Unity", "C#"],
-		"description": "Joc de rescat d'exploradors espacials amb mecàniques d'IA de mobilitat reduïda creat sota estrictes restriccions de temps de jam.",
+		"description": "Aquest joc es va desenvolupar amb Unity (com a requisit de la Jam) per Arnau Frago, Claudi Weather, Álvaro Lombera i Fran Moreno entre el 23 i el 29 de maig de 2022 durant la <a href=\"https://itch.io/jam/level-up-game-jam\" target=\"_blank\"><i>Level Up Game Jam</i></a>. El tema d'aquesta jam va ser <i>Element of chance</i>. En el joc ets un guardià espacial que acaba d'arribar a un planeta amb la missió de rescatar tantes espècies animals locals com sigui possible. Tanmateix, hauràs de recuperar totes les peces perdudes de la teva nau espacial, que es va estavellar en arribar al planeta, i marxar abans que un asteroide hi impacti. Mentrestant, hauràs de fer front a la IA integrada al teu vehicle personal de mobilitat, que es va malmetre durant l'accident i de vegades falla quan intentes seleccionar un eix de moviment.",
 		"thumbnail": "assets/images/academic/imminentimpact.jpg",
 		"links": {
 			"Pàgina de la Jam": "https://itch.io/jam/level-up-game-jam/rate/1551967",
@@ -17,7 +17,7 @@
 		"subtitle": "Global Game Jam 2022 (Tecnocampus Mataró)",
 		"year": "2022",
 		"tags": ["JavaScript"],
-		"description": "Joc 1v1 on jugues a ser Déu i emparelles persones perquè els seus descendents combinin trets i compleixin objectius.",
+		"description": "Aquest joc es va desenvolupar en JavaScript pur per Javi Agenjo, Carlos Martínez, Roger Montané, Carles Rigat, Miguel Llaneli i Fran Moreno entre el 28 i el 30 de gener de 2022 durant la <a href=\"https://globalgamejam.org/2022/jam-sites/tecnocampus-matar%C3%B3\" target=\"_blank\"><i>Global Game Jam 2022 (Tecnocampus Mataró)</i></a>. En aquest joc 1 contra 1, has de «fer de Déu» i aparellar persones de manera que els seus fills puguin combinar els trets dels seus pares i assolir un seguit d'objectius. Hauràs de ser el Déu més hàbil si vols vèncer el teu oponent.",
 		"thumbnail": "assets/images/academic/familyties.jpg",
 		"links": {
 			"Pàgina de la Jam": "https://globalgamejam.org/2022/games/affection-duality-project-5",
@@ -30,7 +30,7 @@
 		"subtitle": "Spooktober Jam 2021",
 		"year": "2021",
 		"tags": ["Unreal Engine"],
-		"description": "Roguelike amb perspectiva zenital en què has de desmantellar un esquema piramidal vampíric sota la temàtica 'Sacrifici'.",
+		"description": "Aquest joc es va desenvolupar amb <i>Unreal Engine</i> per Anthony DiMarco, Jon Hinton, Kika Vasiljev i Fran Moreno entre el 24 i el 31 d'octubre de 2021 durant la <a href=\"https://itch.io/jam/spooktober-jam-2021\" target=\"_blank\">🎃 <i>Spooktober Jam</i> 🎃</a>. Tot i que el tema principal (òbviament) d'aquesta jam era <i>Halloween</i>, la temàtica era <i>Sacrifice</i>. És un roguelike amb perspectiva zenital en què has d'enderrocar un esquema piramidal vampíric.",
 		"thumbnail": "assets/images/academic/bloodsuckers.jpg",
 		"links": {
 			"Pàgina de la Jam": "https://skeletonium.itch.io/bloodsuckersincorporated"
@@ -41,7 +41,7 @@
 		"subtitle": "Projecte d'Entrenament de Motor",
 		"year": "2021",
 		"tags": ["Unity"],
-		"description": "Emulació d'un duel d'insults de The Secret of Monkey Island desenvolupat amb l'únic objectiu de formar-se en Unity.",
+		"description": "Aquest joc és una emulació d'un duel d'insults de <i>The Secret of Monkey Island</i>, desenvolupada amb l'únic objectiu de practicar amb el motor <i>Unity</i>.",
 		"thumbnail": "assets/images/academic/monkeyisland.jpg",
 		"links": {
 			"Github": "https://github.com/wazyen/monkeyisland",
@@ -54,7 +54,7 @@
 		"subtitle": "Global Game Jam 2021 (Barcelona)",
 		"year": "2021",
 		"tags": ["Unity"],
-		"description": "Lleugerament inspirat en Untitled Goose Game; ajuda la protagonista a trobar objectes amagats pel seu entremaliat gatet.",
+		"description": "Aquest joc es va desenvolupar amb <i>Unity</i> per Red Calcifer, Sidney Salmeron, Kotzi, Sara i Fran Moreno entre el 29 i el 31 de gener de 2021 durant la <a href=\"https://globalgamejam.org/2021/jam-sites/game-jam-barcelona-upc-2021\" target=\"_blank\"><i>Global Game Jam 2021 (Barcelona)</i></a>. El tema d'aquesta jam va ser <i>Lost &amp; Found</i>. En aquest joc, lleugerament inspirat en <i>Untitled Goose Game</i>, el jugador ha d'ajudar la protagonista, que s'acaba de despertar, a trobar totes les coses que necessita per al seu dia a dia i que el seu entremaliat gatet ha amagat. Si no, no arribarà a la seva cita, tan important per a ella.",
 		"thumbnail": "assets/images/academic/badkitty.jpg",
 		"links": {
 			"Pàgina de la Jam": "https://globalgamejam.org/2021/games/bad-kitty-3",
@@ -67,7 +67,7 @@
 		"subtitle": "Universitat Pompeu Fabra (Jocs Electrònics)",
 		"year": "2019",
 		"tags": ["C++", "Visual Studio 2019"],
-		"description": "Joc cooperatiu de sigil i fugida per a 2 jugadors inspirat en A Way Out, on presoners fugits esquiven els guàrdies.",
+		"description": "Aquest joc es va desenvolupar amb <i>Visual Studio 2019</i> per Francisco Mesas i Fran Moreno entre l'abril i el juny de 2019 com a projecte final de l'assignatura <i>Jocs Electrònics</i> a la <i>Universitat Pompeu Fabra</i>. En aquest joc per a 2 jugadors, inspirat en <i>A Way Out</i>, dos presoners acaben d'escapar de la presó i han anat a parar a un poble aparentment solitari que, en realitat, és ple de guàrdies. Ara l'objectiu és esquivar-los i fugir del poble.",
 		"thumbnail": "assets/images/academic/villageescape.jpg",
 		"links": {
 			"Github": "https://github.com/wazyen/villageescape",
@@ -79,7 +79,7 @@
 		"subtitle": "Universitat Pompeu Fabra (Jocs Electrònics)",
 		"year": "2019",
 		"tags": ["C++", "Visual Studio 2019"],
-		"description": "Joc 2D amb resolució de 128x128 sota la temàtica 'FAMÍLIA', ajudant una mare ànega a travessar el riu.",
+		"description": "Aquest joc es va desenvolupar amb <i>Visual Studio 2019</i> per Fran Moreno durant l'abril de 2019 com a introducció a l'assignatura <i>Jocs Electrònics</i> a la <i>Universitat Pompeu Fabra</i>. Vam fer una petita «jam» de dues setmanes en què havíem de desenvolupar un videojoc 2D seguint el tema <i>FAMÍLIA</i>, amb la restricció que havia de tenir una resolució de 128x128 píxels. En aquest joc, el jugador ha d'ajudar una mare ànega a travessar un riu a la recerca de menjar mentre manté els seus aneguets fora de perill.",
 		"thumbnail": "assets/images/academic/duckyduckduck.jpg",
 		"links": {
 			"Github": "https://github.com/wazyen/duckyduckduck",
@@ -91,7 +91,7 @@
 		"subtitle": "Projecte de Programació Paral·lela i Distribuïda",
 		"year": "2018",
 		"tags": ["C++", "Qt Creator", "Computació Paral·lela"],
-		"description": "Joc d'arena multijugador p2p en línia desenvolupat utilitzant programació paral·lela.",
+		"description": "Aquest joc es va desenvolupar amb <i>Qt Creator</i> per Diego Sáez, Alba Posas, Francisco Mesas i Fran Moreno entre l'abril i el juny de 2018 com a projecte final de l'assignatura <i>Introducció a la Programació Paral·lela i Distribuïda</i> a la <i>Universitat Pompeu Fabra</i>. L'objectiu del projecte era crear qualsevol mena d'aplicació que implementés alguna funcionalitat relacionada amb la programació paral·lela, així que vam decidir crear un petit videojoc multijugador en línia, lleugerament inspirat en <i>Digimon Rumble Arena</i> de <i>PSX</i>. En aquest videojoc per a entre 2 i 4 jugadors, cadascú lluitarà contra la resta amb la seva pròpia versió de Donald Trump per decidir qui farà que els Estats Units tornin a ser grans.",
 		"thumbnail": "assets/images/academic/pumptrump.jpg",
 		"links": {
 			"Bitbucket": "https://bitbucket.org/wazyen/pumptrump/src/master/",
@@ -104,7 +104,7 @@
 		"subtitle": "Entrenament per al Treball de Recerca de Batxillerat",
 		"year": "2015",
 		"tags": ["App Inventor"],
-		"description": "Primer videojoc creat: una versió de Pong ambientada en Dragon Ball desenvolupada mitjançant programació basada en blocs.",
+		"description": "Aquest es pot considerar el primer videojoc que he creat. Es va desenvolupar amb <i>App Inventor</i> del MIT durant l'agost de 2015. En aquell moment feia projectes senzills amb aquest programari per familiaritzar-m'hi, perquè l'havia d'utilitzar en el meu Treball de Recerca de Batxillerat. És un programa molt senzill per crear aplicacions, adreçat a persones amb pocs coneixements de programació. L'estil de programació es basa a connectar blocs com si fossin peces d'un puzle, molt semblant al que utilitza <i>Scratch</i>. El videojoc és una versió de <i>Pong</i>, el conegut videojoc, ambientada en <i>Dragon Ball</i>. L'objectiu principal és aconseguir la puntuació més alta possible colpejant la paret de l'oponent. Si la pilota colpeja la teva paret, hauràs de tornar a començar.",
 		"thumbnail": "assets/images/academic/dragonballpong.png",
 		"links": {
 			"Descarregar APK": "https://drive.google.com/file/d/1VrL84OBt5Nz-CiBIiPDBxtjIftbiSq8I/view?usp=sharing"

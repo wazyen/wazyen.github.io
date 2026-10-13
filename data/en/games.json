@@ -4,7 +4,7 @@
 		"subtitle": "Gameplay & Systems Engineer",
 		"year": "2026",
 		"tags": ["Unreal Engine", "C++", "Puzzle", "Single-player"],
-		"description": "Arabic-inspired escape room title featuring intricate physical puzzle mechanics, atmospheric lighting setups, and dynamic C++ interaction systems.",
+		"description": "This yet-to-be-announced game is an Arabic styled escape room-like game where the player will have to solve riddles in a oneiric palace to unveil the mysteries hidden in it. In this game I performed mainly level design tasks, as well as maintenance ones.",
 		"thumbnail": "assets/images/games/unannounced.png",
 		"links": {}
 	},
@@ -13,7 +13,7 @@
 		"subtitle": "Gameplay & Systems Engineer",
 		"year": "2025-26",
 		"tags": ["Unreal Engine", "C++", "Steam", "MMO", "Social"],
-		"description": "Action-packed multiplayer/singleplayer game. Engineered core gameplay frameworks, optimized physics, and integrated modular C++ plugins.",
+		"description": "Bion Clash is a social party royale MMO. It is set in a low-poly <i>Futurama</i> inspired world where players can explore, socialize and even compete in frenzied minigames. This game uses most of the modular reusable systems I worked on in The Prison. Besides that, I took care of gameplay programming, as well as backend and game maintenance.",
 		"thumbnail": "assets/images/games/bionclash.png",
 		"links": {
 			"Steam Store": "https://store.steampowered.com/app/2757510/Bion_Clash/"
@@ -24,7 +24,7 @@
 		"subtitle": "Gameplay & Systems Engineer",
 		"year": "2025-26",
 		"tags": ["Unreal Engine", "C++", "Steam", "Single-player", "Narrative"],
-		"description": "Designed core logic loops, interactive UI systems, and robust backend communications.",
+		"description": "Oblivio is a strongly narrative game heavily inspired by <i>Alice's Adventures in Wonderland</i>. It tells the story of a person suffering alzheimer who sees how their memories fade. In this game I took care mainly of gameplay programming and maintenance tasks.",
 		"thumbnail": "assets/images/games/oblivio.png",
 		"links": {
 			"Steam Store": "https://store.steampowered.com/app/2211340/Oblivio/"
@@ -35,7 +35,7 @@
 		"subtitle": "Gameplay & Systems Engineer",
 		"year": "2024-25",
 		"tags": ["Unreal Engine", "C++", "Steam", "Single-player", "Puzzle"],
-		"description": "Atmospheric time-manipulation experience built with custom C++ mechanics and optimized UE rendering features.",
+		"description": "Denbora is a puzzle game strongly inspired by <i>Portal</i> where, instead of portals, players have to use time jumps between two points in time to solve test chambers. If they are to succeed, they will have to understand how actions in the past affect the future, but not the opposite. In this game I mainly took care of gameplay mechanics programming, as well as maintenance and QA tasks.",
 		"thumbnail": "assets/images/games/denbora.png",
 		"links": {
 			"Steam Store": "https://store.steampowered.com/app/2325840/Denbora/"
@@ -46,10 +46,11 @@
 		"subtitle": "Gameplay & Systems Engineer",
 		"year": "2022-26",
 		"tags": ["Unreal Engine", "C++", "Steam", "MMO", "Social"],
-		"description": "Integrated complex objective and quest management systems, environment interactions, and engine-level optimizations.",
+		"description": "Based on <i>Dinamic Multimedia</i> 's <i>La prisión</i>, The Prison is a social MMO set in a prison where players have to forge alliances and fight each other to gain control of the territory. In this project, I took care of the architecture design and implementation of Quests and Factions systems, as well as the maintenance of existing systems. The tasks performed involve all the life cycle of the data, from the database holding the data and the backend serving it to the Unreal Engine application generating and representing it.",
 		"thumbnail": "assets/images/games/theprison.png",
 		"links": {
-			"Steam Store": "https://store.steampowered.com/app/1889920/The_Prison/"
+			"Steam Store": "https://store.steampowered.com/app/1889920/The_Prison/",
+			"Trailer": "https://www.youtube.com/watch?v=z6qzRTyOC6A"
 		}
 	}
 ]

@@ -23,7 +23,7 @@ export function loadPlugins(lang = getCurrentLanguage()) {
         clone.querySelector('[data-subtitle]').textContent = p.subtitle;
         clone.querySelector('[data-title]').textContent = p.title;
         clone.querySelector('[data-year]').textContent = p.year;
-        clone.querySelector('[data-description]').textContent = p.description;
+        clone.querySelector('[data-description]').innerHTML = p.description;
 
         const tagsContainer = clone.querySelector('[data-tags]');
         if (tagsContainer && Array.isArray(p.tags)) {
@@ -39,7 +39,7 @@ export function loadPlugins(lang = getCurrentLanguage()) {
             const a = document.createElement('a');
             a.href = url;
             a.target = "_blank";
-            a.className = "inline-flex items-center gap-1 text-xs font-semibold text-indigo-400 hover:text-indigo-300";
+            a.className = "inline-flex items-center gap-1 text-xs font-semibold text-indigo-400 hover:text-indigo-300 mr-3";
             a.innerHTML = `${label} <i data-lucide="external-link" class="w-3.5 h-3.5"></i>`;
             linksContainer.appendChild(a);
           });

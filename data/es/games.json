@@ -4,7 +4,7 @@
 		"subtitle": "Ingeniero de Gameplay & Sistemas",
 		"year": "2026",
 		"tags": ["Unreal Engine", "C++", "Puzles", "Un jugador"],
-		"description": "Título de escape room de inspiración árabe con intrincadas mecánicas de puzles físicos, iluminación atmosférica y sistemas dinámicos de interacción en C++.",
+		"description": "Este juego aún no anunciado es una aventura de tipo escape room de inspiración árabe en la que el jugador tendrá que resolver acertijos en un palacio onírico para desvelar los misterios que esconde. En este juego me encargué principalmente de tareas de diseño de niveles y mantenimiento.",
 		"thumbnail": "assets/images/games/unannounced.png",
 		"links": {}
 	},
@@ -13,7 +13,7 @@
 		"subtitle": "Ingeniero de Gameplay & Sistemas",
 		"year": "2025-26",
 		"tags": ["Unreal Engine", "C++", "Steam", "MMO", "Social"],
-		"description": "Juego de acción multijugador y un jugador. Desarrollo de arquitecturas centrales de gameplay, optimización de físicas e integración de plugins modulares en C++.",
+		"description": "Bion Clash es un MMO social del género party royale. Está ambientado en un mundo low-poly inspirado en <i>Futurama</i>, donde los jugadores pueden explorar, socializar e incluso competir en minijuegos frenéticos. Este juego utiliza la mayoría de los sistemas modulares y reutilizables en los que trabajé para The Prison. Además, me encargué de la programación del gameplay, así como del backend y del mantenimiento del juego.",
 		"thumbnail": "assets/images/games/bionclash.png",
 		"links": {
 			"Tienda de Steam": "https://store.steampowered.com/app/2757510/Bion_Clash/"
@@ -24,7 +24,7 @@
 		"subtitle": "Ingeniero de Gameplay & Sistemas",
 		"year": "2025-26",
 		"tags": ["Unreal Engine", "C++", "Steam", "Un jugador", "Narrativo"],
-		"description": "Diseño de bucles lógicos principales, sistemas interactivos de interfaz de usuario y comunicaciones robustas con backend.",
+		"description": "Oblivio es un juego de gran carga narrativa, fuertemente inspirado en <i>Las aventuras de Alicia en el país de las maravillas</i>. Cuenta la historia de una persona que padece alzhéimer y ve cómo sus recuerdos se desvanecen. En este juego me encargué principalmente de la programación del gameplay y de tareas de mantenimiento.",
 		"thumbnail": "assets/images/games/oblivio.png",
 		"links": {
 			"Tienda de Steam": "https://store.steampowered.com/app/2211340/Oblivio/"
@@ -35,7 +35,7 @@
 		"subtitle": "Ingeniero de Gameplay & Sistemas",
 		"year": "2024-25",
 		"tags": ["Unreal Engine", "C++", "Steam", "Un jugador", "Puzles"],
-		"description": "Experiencia atmosférica de manipulación temporal desarrollada con mecánicas personalizadas en C++ y características optimizadas de renderizado en UE.",
+		"description": "Denbora es un juego de puzles fuertemente inspirado en <i>Portal</i> en el que, en lugar de portales, los jugadores deben realizar saltos temporales entre dos momentos para resolver cámaras de pruebas. Para conseguirlo, tendrán que entender cómo las acciones del pasado afectan al futuro, pero no al contrario. En este juego me encargué principalmente de programar las mecánicas de gameplay, además de tareas de mantenimiento y control de calidad.",
 		"thumbnail": "assets/images/games/denbora.png",
 		"links": {
 			"Tienda de Steam": "https://store.steampowered.com/app/2325840/Denbora/"
@@ -46,10 +46,11 @@
 		"subtitle": "Ingeniero de Gameplay & Sistemas",
 		"year": "2022-26",
 		"tags": ["Unreal Engine", "C++", "Steam", "MMO", "Social"],
-		"description": "Integración de sistemas complejos de gestión de misiones y objetivos, interacciones con el entorno y optimizaciones a nivel de motor.",
+		"description": "Basado en <i>La prisión</i> de <i>Dinamic Multimedia</i>, The Prison es un MMO social ambientado en una prisión, donde los jugadores deben forjar alianzas y luchar entre sí para hacerse con el control del territorio. En este proyecto me encargué del diseño de la arquitectura y la implementación de los sistemas de Misiones y Facciones, así como del mantenimiento de los sistemas existentes. Las tareas realizadas abarcan todo el ciclo de vida de los datos: desde la base de datos que los almacena y el backend que los sirve hasta la aplicación de Unreal Engine que los genera y representa.",
 		"thumbnail": "assets/images/games/theprison.png",
 		"links": {
-			"Tienda de Steam": "https://store.steampowered.com/app/1889920/The_Prison/"
+			"Tienda de Steam": "https://store.steampowered.com/app/1889920/The_Prison/",
+			"Tráiler": "https://www.youtube.com/watch?v=z6qzRTyOC6A"
 		}
 	}
 ]

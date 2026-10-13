@@ -23,7 +23,7 @@ export function loadAcademic(lang = getCurrentLanguage()) {
 				clone.querySelector('[data-title]').textContent = p.title;
 				clone.querySelector('[data-year]').textContent = p.year;
 				clone.querySelector('[data-subtitle]').textContent = p.subtitle;
-				clone.querySelector('[data-description]').textContent = p.description;
+				clone.querySelector('[data-description]').innerHTML = p.description;
 
 				const tagsContainer = clone.querySelector('[data-tags]');
 				if (tagsContainer && Array.isArray(p.tags)) {
