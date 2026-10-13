@@ -1,0 +1,113 @@
+[
+	{
+		"title": "Imminent Impact",
+		"subtitle": "Level Up Game Jam",
+		"year": "2022",
+		"tags": ["Unity", "C#"],
+		"description": "Juego de rescate de exploradores espaciales con mecánicas de IA de movilidad reducida creado bajo estrictas restricciones de tiempo de jam.",
+		"thumbnail": "assets/images/academic/imminentimpact.jpg",
+		"links": {
+			"Página de la Jam": "https://itch.io/jam/level-up-game-jam/rate/1551967",
+			"Jugar ahora": "https://wazyen.itch.io/imminent-impact",
+			"Demostración": "https://youtu.be/TVZ0nkMKhk8"
+		}
+	},
+	{
+		"title": "Family Ties",
+		"subtitle": "Global Game Jam 2022 (Tecnocampus Mataró)",
+		"year": "2022",
+		"tags": ["JavaScript"],
+		"description": "Juego 1v1 donde juegas como Dios y emparejas personas para que sus descendientes combinen rasgos y cumplan objetivos.",
+		"thumbnail": "assets/images/academic/familyties.jpg",
+		"links": {
+			"Página de la Jam": "https://globalgamejam.org/2022/games/affection-duality-project-5",
+			"Github": "https://github.com/jagenjo/GGJ22",
+			"Jugar ahora": "https://tamats.com/games/ggj22/"
+		}
+	},
+	{
+		"title": "Bloodsuckers Incorporated",
+		"subtitle": "Spooktober Jam 2021",
+		"year": "2021",
+		"tags": ["Unreal Engine"],
+		"description": "Roguelike con perspectiva cenital en el que debes desmantelar un esquema piramidal vampírico bajo la temática 'Sacrificio'.",
+		"thumbnail": "assets/images/academic/bloodsuckers.jpg",
+		"links": {
+			"Página de la Jam": "https://skeletonium.itch.io/bloodsuckersincorporated"
+		}
+	},
+	{
+		"title": "Monkey Island (Insult Duel)",
+		"subtitle": "Proyecto de Entrenamiento de Motor",
+		"year": "2021",
+		"tags": ["Unity"],
+		"description": "Emulación de un duelo de insultos de The Secret of Monkey Island desarrollado con el propósito exclusivo de formarse en Unity.",
+		"thumbnail": "assets/images/academic/monkeyisland.jpg",
+		"links": {
+			"Github": "https://github.com/wazyen/monkeyisland",
+			"Jugar ahora": "https://wazyen.itch.io/monkeyisland",
+			"Demostración": "https://youtu.be/PUzjhO5Uuw0"
+		}
+	},
+	{
+		"title": "Bad Kitty",
+		"subtitle": "Global Game Jam 2021 (Barcelona)",
+		"year": "2021",
+		"tags": ["Unity"],
+		"description": "Ligeramente inspirado en Untitled Goose Game; ayuda a la protagonista a encontrar objetos escondidos por su travieso gatito.",
+		"thumbnail": "assets/images/academic/badkitty.jpg",
+		"links": {
+			"Página de la Jam": "https://globalgamejam.org/2021/games/bad-kitty-3",
+			"Github": "https://github.com/Kotzi/badkitty",
+			"Jugar ahora": "https://kotzi.itch.io/bad-kitty"
+		}
+	},
+	{
+		"title": "Village Escape",
+		"subtitle": "Universitat Pompeu Fabra (Jocs Electrònics)",
+		"year": "2019",
+		"tags": ["C++", "Visual Studio 2019"],
+		"description": "Juego cooperativo de sigilo y escape para 2 jugadores inspirado en A Way Out, donde prisioneros fugados evaden a los guardias.",
+		"thumbnail": "assets/images/academic/villageescape.jpg",
+		"links": {
+			"Github": "https://github.com/wazyen/villageescape",
+			"Demostración": "https://youtu.be/To3HHiCDlrQ"
+		}
+	},
+	{
+		"title": "Ducky Duck Duck",
+		"subtitle": "Universitat Pompeu Fabra (Jocs Electrònics)",
+		"year": "2019",
+		"tags": ["C++", "Visual Studio 2019"],
+		"description": "Juego 2D con resolución de 128x128 bajo la temática 'FAMILIA', ayudando a una mamá pata a cruzar el río.",
+		"thumbnail": "assets/images/academic/duckyduckduck.jpg",
+		"links": {
+			"Github": "https://github.com/wazyen/duckyduckduck",
+			"Demostración": "https://youtu.be/MzxklzZDL7I"
+		}
+	},
+	{
+		"title": "PumpTrump",
+		"subtitle": "Proyecto de Programación Paralela y Distribuida",
+		"year": "2018",
+		"tags": ["C++", "Qt Creator", "Computación Paralela"],
+		"description": "Juego de arena multijugador p2p en línea desarrollado utilizando programación paralela.",
+		"thumbnail": "assets/images/academic/pumptrump.jpg",
+		"links": {
+			"Bitbucket": "https://bitbucket.org/wazyen/pumptrump/src/master/",
+			"Wiki": "https://bitbucket.org/wazyen/pumptrump/wiki/Home",
+			"Demostración": "https://youtu.be/nbSTE7wCeqQ"
+		}
+	},
+	{
+		"title": "Dragon Ball Pong",
+		"subtitle": "Entrenamiento para el Trabajo de Investigación de Bachillerato",
+		"year": "2015",
+		"tags": ["App Inventor"],
+		"description": "Primer videojuego creado: una versión de Pong ambientada en Dragon Ball desarrollada mediante programación basada en bloques.",
+		"thumbnail": "assets/images/academic/dragonballpong.png",
+		"links": {
+			"Descargar APK": "https://drive.google.com/file/d/1VrL84OBt5Nz-CiBIiPDBxtjIftbiSq8I/view?usp=sharing"
+		}
+	}
+]

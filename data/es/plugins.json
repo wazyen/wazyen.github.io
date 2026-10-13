@@ -1,0 +1,24 @@
+[
+	{
+		"title": "Portals Plugin",
+		"subtitle": "Proyecto de Tesis de Máster",
+		"year": "2023",
+		"tags": ["Unreal Engine", "C++", "Gráficos", "Matemáticas", "Arquitectura Modular"],
+		"description": "Sistema modular de portales de alto rendimiento para Unreal Engine. Cuenta con transiciones espaciales continuas sin cortes, gestión de recursión en render targets, reorientación física dinámica y prevención de clipping de cámara.",
+		"thumbnail": "assets/images/plugins/portals-plugin.jpg",
+		"links": {
+			"Ver en Fab": "https://www.fab.com/listings/439d5b1b-ec6f-4779-b324-1f03d5cc219c"
+		}
+	},
+	{
+		"title": "Quests System Plugin",
+		"subtitle": "Plugin de Grado de Producción",
+		"year": "2024",
+		"tags": ["Unreal Engine", "C++", "Data-Driven", "Arquitectura de Sistemas"],
+		"description": "Framework flexible y reutilizable para la gestión de misiones y objetivos diseñado para juegos en producción. Integrado y probado en combate en títulos comerciales de Steam como 'The Prison' y 'Bion Clash'.",
+		"thumbnail": "assets/images/plugins/quest-plugin.jpg",
+		"links": {
+			"Ver en Fab": "https://www.fab.com/listings/f2faecb6-5d16-460a-ad68-e37b30a0dcc9"
+		}
+	}
+]

@@ -1,0 +1,55 @@
+[
+	{
+		"title": "Escape Room Onírico No Anunciado (Proyecto de Cliente)",
+		"subtitle": "Ingeniero de Gameplay & Sistemas",
+		"year": "2026",
+		"tags": ["Unreal Engine", "C++", "Puzles", "Un jugador"],
+		"description": "Título de escape room de inspiración árabe con intrincadas mecánicas de puzles físicos, iluminación atmosférica y sistemas dinámicos de interacción en C++.",
+		"thumbnail": "assets/images/games/unannounced.png",
+		"links": {}
+	},
+	{
+		"title": "Bion Clash",
+		"subtitle": "Ingeniero de Gameplay & Sistemas",
+		"year": "2025-26",
+		"tags": ["Unreal Engine", "C++", "Steam", "MMO", "Social"],
+		"description": "Juego de acción multijugador y un jugador. Desarrollo de arquitecturas centrales de gameplay, optimización de físicas e integración de plugins modulares en C++.",
+		"thumbnail": "assets/images/games/bionclash.png",
+		"links": {
+			"Tienda de Steam": "https://store.steampowered.com/app/2757510/Bion_Clash/"
+		}
+	},
+	{
+		"title": "Oblivio",
+		"subtitle": "Ingeniero de Gameplay & Sistemas",
+		"year": "2025-26",
+		"tags": ["Unreal Engine", "C++", "Steam", "Un jugador", "Narrativo"],
+		"description": "Diseño de bucles lógicos principales, sistemas interactivos de interfaz de usuario y comunicaciones robustas con backend.",
+		"thumbnail": "assets/images/games/oblivio.png",
+		"links": {
+			"Tienda de Steam": "https://store.steampowered.com/app/2211340/Oblivio/"
+		}
+	},
+	{
+		"title": "Denbora",
+		"subtitle": "Ingeniero de Gameplay & Sistemas",
+		"year": "2024-25",
+		"tags": ["Unreal Engine", "C++", "Steam", "Un jugador", "Puzles"],
+		"description": "Experiencia atmosférica de manipulación temporal desarrollada con mecánicas personalizadas en C++ y características optimizadas de renderizado en UE.",
+		"thumbnail": "assets/images/games/denbora.png",
+		"links": {
+			"Tienda de Steam": "https://store.steampowered.com/app/2325840/Denbora/"
+		}
+	},
+	{
+		"title": "The Prison",
+		"subtitle": "Ingeniero de Gameplay & Sistemas",
+		"year": "2022-26",
+		"tags": ["Unreal Engine", "C++", "Steam", "MMO", "Social"],
+		"description": "Integración de sistemas complejos de gestión de misiones y objetivos, interacciones con el entorno y optimizaciones a nivel de motor.",
+		"thumbnail": "assets/images/games/theprison.png",
+		"links": {
+			"Tienda de Steam": "https://store.steampowered.com/app/1889920/The_Prison/"
+		}
+	}
+]

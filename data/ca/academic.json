@@ -1,0 +1,113 @@
+[
+	{
+		"title": "Imminent Impact",
+		"subtitle": "Level Up Game Jam",
+		"year": "2022",
+		"tags": ["Unity", "C#"],
+		"description": "Joc de rescat d'exploradors espacials amb mecàniques d'IA de mobilitat reduïda creat sota estrictes restriccions de temps de jam.",
+		"thumbnail": "assets/images/academic/imminentimpact.jpg",
+		"links": {
+			"Pàgina de la Jam": "https://itch.io/jam/level-up-game-jam/rate/1551967",
+			"Jugar ara": "https://wazyen.itch.io/imminent-impact",
+			"Demostració": "https://youtu.be/TVZ0nkMKhk8"
+		}
+	},
+	{
+		"title": "Family Ties",
+		"subtitle": "Global Game Jam 2022 (Tecnocampus Mataró)",
+		"year": "2022",
+		"tags": ["JavaScript"],
+		"description": "Joc 1v1 on jugues a ser Déu i emparelles persones perquè els seus descendents combinin trets i compleixin objectius.",
+		"thumbnail": "assets/images/academic/familyties.jpg",
+		"links": {
+			"Pàgina de la Jam": "https://globalgamejam.org/2022/games/affection-duality-project-5",
+			"Github": "https://github.com/jagenjo/GGJ22",
+			"Jugar ara": "https://tamats.com/games/ggj22/"
+		}
+	},
+	{
+		"title": "Bloodsuckers Incorporated",
+		"subtitle": "Spooktober Jam 2021",
+		"year": "2021",
+		"tags": ["Unreal Engine"],
+		"description": "Roguelike amb perspectiva zenital en què has de desmantellar un esquema piramidal vampíric sota la temàtica 'Sacrifici'.",
+		"thumbnail": "assets/images/academic/bloodsuckers.jpg",
+		"links": {
+			"Pàgina de la Jam": "https://skeletonium.itch.io/bloodsuckersincorporated"
+		}
+	},
+	{
+		"title": "Monkey Island (Insult Duel)",
+		"subtitle": "Projecte d'Entrenament de Motor",
+		"year": "2021",
+		"tags": ["Unity"],
+		"description": "Emulació d'un duel d'insults de The Secret of Monkey Island desenvolupat amb l'únic objectiu de formar-se en Unity.",
+		"thumbnail": "assets/images/academic/monkeyisland.jpg",
+		"links": {
+			"Github": "https://github.com/wazyen/monkeyisland",
+			"Jugar ara": "https://wazyen.itch.io/monkeyisland",
+			"Demostració": "https://youtu.be/PUzjhO5Uuw0"
+		}
+	},
+	{
+		"title": "Bad Kitty",
+		"subtitle": "Global Game Jam 2021 (Barcelona)",
+		"year": "2021",
+		"tags": ["Unity"],
+		"description": "Lleugerament inspirat en Untitled Goose Game; ajuda la protagonista a trobar objectes amagats pel seu entremaliat gatet.",
+		"thumbnail": "assets/images/academic/badkitty.jpg",
+		"links": {
+			"Pàgina de la Jam": "https://globalgamejam.org/2021/games/bad-kitty-3",
+			"Github": "https://github.com/Kotzi/badkitty",
+			"Jugar ara": "https://kotzi.itch.io/bad-kitty"
+		}
+	},
+	{
+		"title": "Village Escape",
+		"subtitle": "Universitat Pompeu Fabra (Jocs Electrònics)",
+		"year": "2019",
+		"tags": ["C++", "Visual Studio 2019"],
+		"description": "Joc cooperatiu de sigil i fugida per a 2 jugadors inspirat en A Way Out, on presoners fugits esquiven els guàrdies.",
+		"thumbnail": "assets/images/academic/villageescape.jpg",
+		"links": {
+			"Github": "https://github.com/wazyen/villageescape",
+			"Demostració": "https://youtu.be/To3HHiCDlrQ"
+		}
+	},
+	{
+		"title": "Ducky Duck Duck",
+		"subtitle": "Universitat Pompeu Fabra (Jocs Electrònics)",
+		"year": "2019",
+		"tags": ["C++", "Visual Studio 2019"],
+		"description": "Joc 2D amb resolució de 128x128 sota la temàtica 'FAMÍLIA', ajudant una mare ànega a travessar el riu.",
+		"thumbnail": "assets/images/academic/duckyduckduck.jpg",
+		"links": {
+			"Github": "https://github.com/wazyen/duckyduckduck",
+			"Demostració": "https://youtu.be/MzxklzZDL7I"
+		}
+	},
+	{
+		"title": "PumpTrump",
+		"subtitle": "Projecte de Programació Paral·lela i Distribuïda",
+		"year": "2018",
+		"tags": ["C++", "Qt Creator", "Computació Paral·lela"],
+		"description": "Joc d'arena multijugador p2p en línia desenvolupat utilitzant programació paral·lela.",
+		"thumbnail": "assets/images/academic/pumptrump.jpg",
+		"links": {
+			"Bitbucket": "https://bitbucket.org/wazyen/pumptrump/src/master/",
+			"Wiki": "https://bitbucket.org/wazyen/pumptrump/wiki/Home",
+			"Demostració": "https://youtu.be/nbSTE7wCeqQ"
+		}
+	},
+	{
+		"title": "Dragon Ball Pong",
+		"subtitle": "Entrenament per al Treball de Recerca de Batxillerat",
+		"year": "2015",
+		"tags": ["App Inventor"],
+		"description": "Primer videojoc creat: una versió de Pong ambientada en Dragon Ball desenvolupada mitjançant programació basada en blocs.",
+		"thumbnail": "assets/images/academic/dragonballpong.png",
+		"links": {
+			"Descarregar APK": "https://drive.google.com/file/d/1VrL84OBt5Nz-CiBIiPDBxtjIftbiSq8I/view?usp=sharing"
+		}
+	}
+]

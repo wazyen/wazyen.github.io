@@ -1,0 +1,24 @@
+[
+	{
+		"title": "Portals Plugin",
+		"subtitle": "Projecte de Tesi de Màster",
+		"year": "2023",
+		"tags": ["Unreal Engine", "C++", "Gràfics", "Matemàtiques", "Arquitectura Modular"],
+		"description": "Sistema modular de portals d'alt rendiment desenvolupat per a Unreal Engine. Compta amb transicions espacials contínues sense talls, gestió de recursió en render targets, reorientació física dinàmica i prevenció de clipping de càmera.",
+		"thumbnail": "assets/images/plugins/portals-plugin.jpg",
+		"links": {
+			"Veure a Fab": "https://www.fab.com/listings/439d5b1b-ec6f-4779-b324-1f03d5cc219c"
+		}
+	},
+	{
+		"title": "Quests System Plugin",
+		"subtitle": "Plugin de Grau de Producció",
+		"year": "2024",
+		"tags": ["Unreal Engine", "C++", "Data-Driven", "Arquitectura de Sistemes"],
+		"description": "Framework flexible i reutilitzable per a la gestió de missions i objectius dissenyat per a jocs en producció. Integrat i provat en combat en títols comercials de Steam com 'The Prison' i 'Bion Clash'.",
+		"thumbnail": "assets/images/plugins/quest-plugin.jpg",
+		"links": {
+			"Veure a Fab": "https://www.fab.com/listings/f2faecb6-5d16-460a-ad68-e37b30a0dcc9"
+		}
+	}
+]

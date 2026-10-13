@@ -2,65 +2,133 @@
 <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>Academic & Game Jam Archive | Fran Moreno</title>
+    <!-- Early theme check script to prevent flash of unstyled theme -->
+    <script>
+        (function() {
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (savedTheme === 'dark' || (!savedTheme && prefersDark) || !savedTheme) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon_16x16.png">
+    <link rel="apple-touch-icon" sizes="150x150" href="assets/favicon/favicon_150x150.png">
+    <link rel="icon" href="assets/favicon/favicon_original.png">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Quicksand', 'sans-serif'],
+                    }
+                }
+            }
+        };
+    </script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white relative">
-<div class="fixed inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-900/20 via-slate-950 to-slate-950 -z-10"></div>
+<body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white relative transition-colors duration-200 min-h-screen">
+<div class="fixed inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-100/60 via-slate-50 to-slate-50 dark:from-indigo-900/20 dark:via-slate-950 dark:to-slate-950 -z-10"></div>
 
-<div class="max-w-5xl mx-auto px-6 py-12 space-y-12">
-    <!-- Navigation -->
-    <nav class="flex justify-between items-center pb-6 border-b border-slate-800/80">
-        <span class="font-bold text-lg text-white">Fran Moreno Jiménez</span>
-        <div class="flex gap-6 text-sm font-medium">
-            <a href="index.html" class="text-slate-400 hover:text-white transition-colors">Portfolio</a>
-            <a href="academic.html" class="text-indigo-400">Academic & Jams</a>
-        </div>
-    </nav>
+<!-- Sticky Always-Visible Top Bar -->
+<header class="sticky top-0 z-40 w-full backdrop-blur-md bg-slate-50/85 dark:bg-slate-950/85 border-b border-slate-200/80 dark:border-slate-800/80 transition-colors duration-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
+        <nav>
+            <div class="flex justify-between items-center gap-3">
+                <!-- Brand Name -->
+                <a href="index.html" class="font-bold text-base sm:text-lg text-slate-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors truncate" data-i18n="hero.name">Fran Moreno Jiménez</a>
 
-    <header class="space-y-3">
-        <h1 class="text-3xl font-extrabold text-white">Academic & Game Jam Archive</h1>
-        <p class="text-slate-400 text-sm max-w-xl">
+                <!-- Right Controls: Desktop Nav + Language Switcher + Theme Toggle + Mobile Menu -->
+                <div class="flex items-center gap-2 sm:gap-4 shrink-0">
+                    <!-- Desktop Nav Links -->
+                    <div class="hidden md:flex items-center gap-6 text-sm font-medium">
+                        <a href="index.html" data-i18n="nav.portfolio" class="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white transition-colors">Portfolio</a>
+                        <a href="academic.html" data-i18n="nav.academic" class="text-indigo-600 dark:text-indigo-400 font-semibold">Academic & Jams</a>
+                    </div>
+
+                    <!-- Language Switcher -->
+                    <div class="flex items-center bg-slate-200/80 dark:bg-slate-900 border border-slate-300 dark:border-slate-800 rounded-lg p-0.5 text-xs font-semibold" data-language-switcher>
+                        <button type="button" data-lang-btn="en" class="px-2 py-1 rounded transition-colors text-white bg-indigo-600 font-semibold shadow-sm">EN</button>
+                        <button type="button" data-lang-btn="es" class="px-2 py-1 rounded transition-colors text-slate-600 hover:text-slate-900 hover:bg-slate-200 dark:text-slate-400 dark:hover:text-white dark:hover:bg-slate-800">ES</button>
+                        <button type="button" data-lang-btn="ca" class="px-2 py-1 rounded transition-colors text-slate-600 hover:text-slate-900 hover:bg-slate-200 dark:text-slate-400 dark:hover:text-white dark:hover:bg-slate-800">CA</button>
+                    </div>
+
+                    <!-- Theme Toggle Button (Shows Moon in Dark Mode, Sun in Light Mode) -->
+                    <button type="button" data-theme-toggle aria-label="Toggle theme" class="p-1.5 sm:p-2 rounded-lg bg-slate-200/80 dark:bg-slate-900 border border-slate-300 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-300 dark:hover:bg-slate-800 transition-colors">
+                        <i data-lucide="moon" data-theme-icon="moon" class="w-4 h-4 text-indigo-400"></i>
+                        <i data-lucide="sun" data-theme-icon="sun" class="w-4 h-4 text-amber-500 hidden"></i>
+                    </button>
+
+                    <!-- Mobile Hamburger Menu Toggle Button -->
+                    <button type="button" id="mobile-menu-toggle" aria-expanded="false" aria-label="Toggle navigation menu" class="md:hidden p-1.5 rounded-lg bg-slate-200/80 dark:bg-slate-900 border border-slate-300 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-300 dark:hover:bg-slate-800 transition-colors">
+                        <i data-lucide="menu" data-menu-icon="open" class="w-5 h-5"></i>
+                        <i data-lucide="x" data-menu-icon="close" class="w-5 h-5 hidden"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <div id="mobile-menu" class="hidden md:hidden pt-4 pb-2 mt-3 border-t border-slate-200 dark:border-slate-800/80 space-y-1">
+                <a href="index.html" data-i18n="nav.portfolio" class="block px-3 py-2 rounded-lg text-sm font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-900 hover:text-slate-900 dark:hover:text-white transition-colors">Portfolio</a>
+                <a href="academic.html" data-i18n="nav.academic" class="block px-3 py-2 rounded-lg text-sm font-semibold text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/40">Academic & Jams</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main class="max-w-5xl mx-auto px-4 sm:px-6 py-6 sm:py-12 space-y-10 sm:space-y-12">
+    <header class="space-y-3 pt-2">
+        <h1 data-i18n="academic.headerTitle" class="text-2xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">Academic & Game Jam Archive</h1>
+        <p data-i18n="academic.headerSubtitle" class="text-slate-600 dark:text-slate-400 text-sm sm:text-base max-w-xl leading-relaxed">
             A complete collection of university projects, hackathons, and game jams from my student and early experimental years.
         </p>
     </header>
 
-    <section id="academic-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"></section>
+    <section id="academic-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6"></section>
 
     <!-- Footer -->
-    <footer class="pt-8 border-t border-slate-900 text-center text-slate-600 text-xs flex flex-col sm:flex-row justify-between items-center gap-4">
+    <footer class="pt-8 border-t border-slate-200 dark:border-slate-900 text-center text-slate-500 text-xs flex flex-col sm:flex-row justify-between items-center gap-4">
         <p>&copy; <span id="current-year"></span> Fran Moreno Jiménez</p>
-        <p class="text-slate-500">Hosted on GitHub Pages</p>
+        <p data-i18n="footer.hosted">Hosted on GitHub Pages</p>
     </footer>
-</div>
+</main>
 
 <!-- Scroll to Top Button -->
-<button id="scroll-to-top" aria-label="Scroll to top" class="fixed bottom-6 right-6 p-3 rounded-full bg-slate-900/90 border border-slate-700/80 text-indigo-400 hover:bg-indigo-600 hover:text-white shadow-xl transition-all duration-300 opacity-0 pointer-events-none z-50 focus:outline-none">
+<button id="scroll-to-top" aria-label="Scroll to top" class="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 p-3 rounded-full bg-white/90 dark:bg-slate-900/90 border border-slate-200 dark:border-slate-700/80 text-indigo-600 dark:text-indigo-400 hover:bg-indigo-600 hover:text-white dark:hover:bg-indigo-600 dark:hover:text-white shadow-lg transition-all duration-300 opacity-0 pointer-events-none z-50 focus:outline-none">
     <i data-lucide="chevron-up" class="w-5 h-5"></i>
 </button>
 
 <!-- TEMPLATE FOR ACADEMIC PROJECTS (TRUE SQUARE TOP THUMBNAIL) -->
 <template id="academic-card-template">
-    <div class="project-card bg-slate-900/60 border border-slate-800 rounded-xl overflow-hidden flex flex-col justify-between hover:border-slate-700 transition-all">
+    <div class="project-card bg-white dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden flex flex-col justify-between shadow-sm hover:border-slate-300 dark:hover:border-slate-700 hover:shadow-md transition-all">
         <!-- True Square Image Container -->
-        <div class="w-full aspect-square relative overflow-hidden bg-slate-950">
+        <div class="w-full aspect-square relative overflow-hidden bg-slate-100 dark:bg-slate-950">
             <img data-img src="" alt="" class="img-zoom w-full h-full object-cover">
         </div>
         <!-- Details Container -->
-        <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+        <div class="p-4 sm:p-5 flex-1 flex flex-col justify-between space-y-3">
             <div class="space-y-2">
-                <div class="flex justify-between items-start">
-                    <h3 data-title class="text-base font-bold text-white"></h3>
-                    <span data-year class="text-xs font-mono text-slate-500"></span>
+                <div class="flex justify-between items-start gap-2">
+                    <h3 data-title class="text-base font-bold text-slate-900 dark:text-white"></h3>
+                    <span data-year class="text-xs font-mono text-slate-500 shrink-0"></span>
                 </div>
-                <span data-subtitle class="text-xs text-indigo-400 font-medium block"></span>
-                <div data-tags class="flex flex-wrap gap-1.5 pt-1"></div>
-                <p data-description class="text-slate-400 text-xs leading-relaxed pt-1"></p>
+                <span data-subtitle class="text-xs text-indigo-600 dark:text-indigo-400 font-medium block"></span>
+                <div data-tags class="data-tags flex flex-wrap gap-1.5 pt-1"></div>
+                <p data-description class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed pt-1"></p>
             </div>
-            <div data-links class="pt-3 border-t border-slate-800/60 flex flex-wrap gap-3"></div>
+            <div data-links class="pt-3 border-t border-slate-100 dark:border-slate-800/60 flex flex-wrap gap-3"></div>
         </div>
     </div>
 </template>

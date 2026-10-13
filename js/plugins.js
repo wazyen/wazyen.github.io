@@ -1,14 +1,23 @@
-export function loadPlugins() {
+import { createTagSpan } from './tags.js';
+import { getCurrentLanguage, getLocalizedDataUrl } from './i18n.js';
+
+export function loadPlugins(lang = getCurrentLanguage()) {
   const container = document.getElementById('featured-plugins');
   const template = document.getElementById('project-card-template');
   if (!container || !template) return;
 
-  fetch('data/plugins.json')
-    .then(res => res.json())
+  const dataUrl = getLocalizedDataUrl('plugins', lang);
+
+  fetch(dataUrl)
+    .then(res => {
+      if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+      return res.json();
+    })
     .then(plugins => {
+      container.innerHTML = '';
       plugins.forEach(p => {
         const clone = template.content.cloneNode(true);
-        
+
         clone.querySelector('[data-img]').src = p.thumbnail;
         clone.querySelector('[data-img]').alt = p.title;
         clone.querySelector('[data-subtitle]').textContent = p.subtitle;
@@ -17,22 +26,24 @@ export function loadPlugins() {
         clone.querySelector('[data-description]').textContent = p.description;
 
         const tagsContainer = clone.querySelector('[data-tags]');
-        p.tags.forEach(t => {
-          const span = document.createElement('span');
-          span.className = "px-2 py-0.5 rounded text-[11px] font-medium bg-slate-800 text-indigo-300 border border-slate-700/50";
-          span.textContent = t;
-          tagsContainer.appendChild(span);
-        });
+        if (tagsContainer && Array.isArray(p.tags)) {
+          p.tags.forEach(t => {
+            const span = createTagSpan(t, false);
+            tagsContainer.appendChild(span);
+          });
+        }
 
         const linksContainer = clone.querySelector('[data-links]');
-        Object.entries(p.links).forEach(([label, url]) => {
-          const a = document.createElement('a');
-          a.href = url;
-          a.target = "_blank";
-          a.className = "inline-flex items-center gap-1 text-xs font-semibold text-indigo-400 hover:text-indigo-300";
-          a.innerHTML = `${label} <i data-lucide="external-link" class="w-3.5 h-3.5"></i>`;
-          linksContainer.appendChild(a);
-        });
+        if (linksContainer && p.links) {
+          Object.entries(p.links).forEach(([label, url]) => {
+            const a = document.createElement('a');
+            a.href = url;
+            a.target = "_blank";
+            a.className = "inline-flex items-center gap-1 text-xs font-semibold text-indigo-400 hover:text-indigo-300";
+            a.innerHTML = `${label} <i data-lucide="external-link" class="w-3.5 h-3.5"></i>`;
+            linksContainer.appendChild(a);
+          });
+        }
 
         container.appendChild(clone);
       });
