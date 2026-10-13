@@ -3,108 +3,229 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fran Moreno | Unreal Engine & C++ Software Engineer</title>
+    <title>Fran | Unreal Engine & C++ Software Engineer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="bg-slate-950 text-slate-100 font-sans antialiased">
-    <div class="fixed inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-900/20 via-slate-950 to-slate-950 -z-10"></div>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white relative">
+<div class="fixed inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-900/20 via-slate-950 to-slate-950 -z-10"></div>
 
-    <div class="max-w-5xl mx-auto px-6 py-12 space-y-16">
-        <!-- Navigation -->
-        <nav class="flex justify-between items-center pb-6 border-b border-slate-800/80">
-            <span class="font-bold text-lg text-white">Fran Moreno</span>
-            <div class="flex gap-6 text-sm font-medium">
-                <a href="index.html" class="text-indigo-400">Portfolio</a>
-                <a href="academic.html" class="text-slate-400 hover:text-white transition-colors">Academic & Jams</a>
-            </div>
-        </nav>
+<div class="max-w-5xl mx-auto px-6 py-12 space-y-16">
+    <!-- Navigation -->
+    <nav class="flex justify-between items-center pb-6 border-b border-slate-800/80">
+        <span class="font-bold text-lg text-white">Fran Moreno Jiménez</span>
+        <div class="flex gap-6 text-sm font-medium">
+            <a href="index.html" class="text-indigo-400">Portfolio</a>
+            <a href="#plugins" class="text-slate-400 hover:text-white transition-colors">Plugins</a>
+            <a href="#games" class="text-slate-400 hover:text-white transition-colors">Commercial Games</a>
+            <a href="#academic" class="text-slate-400 hover:text-white transition-colors">Academic & Jams</a>
+            <a href="#contact" class="text-slate-400 hover:text-white transition-colors">Contact</a>
+        </div>
+    </nav>
 
-        <!-- Header -->
-        <header class="space-y-6">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-semibold uppercase">
-                <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
-                5+ Years Professional Experience
-            </div>
-            <div class="space-y-2">
-                <h1 class="text-4xl sm:text-5xl font-extrabold text-white">Fran Moreno</h1>
-                <p class="text-xl sm:text-2xl text-indigo-400 font-medium">Unreal Engine Specialist & Senior C++ Software Engineer</p>
-            </div>
-            <p class="text-slate-300 max-w-2xl text-base leading-relaxed">
-                Specialized in **systems architecture**, **modular C++ plugins**, and **UE UI/Slate**. Proven track record shipping commercial Steam titles and robust backend infrastructure with .NET, Docker, and distributed databases.
+    <!-- Hero / About Section -->
+    <header class="space-y-6 pt-4">
+        <div class="space-y-2">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight">Fran Moreno Jiménez</h1>
+            <p class="text-xl sm:text-2xl text-indigo-400 font-medium">Unreal Engine Specialist & Senior C++ Software Engineer</p>
+        </div>
+
+        <div class="text-slate-300 max-w-3xl space-y-4 text-base leading-relaxed">
+            <p>
+                Fran is a software engineer with <strong>5+ years of professional experience</strong> designing and shipping video games and interactive applications using <strong>Unreal Engine & C++</strong>. He specializes in low-level systems architecture, building modular, reusable plugins, and crafting responsive UE User Interfaces.
             </p>
-        </header>
+            <p>
+                Beyond game development, he brings strong full-stack and backend capabilities:
+            </p>
+            <ul class="list-disc list-inside space-y-1.5 text-slate-300 pl-2">
+                <li>Backend system development with <strong>.NET</strong></li>
+                <li>Administration dashboards using <strong>Razor Pages</strong></li>
+                <li>Relational database management with <strong>MySQL</strong></li>
+                <li>In-memory data structures and caching with <strong>Redis</strong></li>
+                <li>Distributed messaging and fanout architecture with <strong>RabbitMQ</strong></li>
+                <li>Application deployment and environment management using <strong>Docker containerization</strong></li>
+            </ul>
+        </div>
 
-        <!-- Featured Plugins -->
-        <section class="space-y-6">
-            <h2 class="text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2">
-                <i data-lucide="box" class="w-4 h-4 text-indigo-400"></i> Featured Unreal Engine Plugins (Fab)
-            </h2>
-            <div id="featured-plugins" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
-        </section>
-
-        <!-- Steam Games -->
-        <section class="space-y-6">
-            <h2 class="text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2">
-                <i data-lucide="rocket" class="w-4 h-4 text-indigo-400"></i> Commercial & Steam Experience
-            </h2>
-            <div id="steam-games" class="grid grid-cols-1 gap-4"></div>
-        </section>
-
-        <!-- Link to Academic Archive Page -->
-        <section class="pt-8 border-t border-slate-800/80 text-center space-y-3">
-            <p class="text-sm text-slate-400">Looking for game jam entries and university student projects?</p>
-            <a href="academic.html" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-indigo-400 hover:text-indigo-300 text-sm font-semibold transition-all">
-                View Academic & Game Jam Archive <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        <!-- Quick Action Links -->
+        <div class="flex flex-wrap gap-4 pt-2">
+            <a href="mailto:fmorenojdev@gmail.com" target="_blank" class="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-200 text-sm font-medium transition-all">
+                <i data-lucide="mail" class="w-4 h-4 text-slate-400"></i> Email Me
             </a>
-        </section>
+            <a href="https://www.linkedin.com/in/fmorenoj/" target="_blank" class="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-200 text-sm font-medium transition-all">
+                <!-- Inline LinkedIn SVG -->
+                <svg class="w-4 h-4 fill-current text-indigo-400" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                LinkedIn
+            </a>
+            <a href="#contact" class="flex items-center gap-2 px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-medium shadow-lg shadow-indigo-600/20 transition-all">
+                <i data-lucide="arrow-down" class="w-4 h-4"></i> More contact options
+            </a>
+        </div>
+    </header>
+
+    <!-- Featured Plugins -->
+    <section id="plugins" class="space-y-6">
+        <h2 class="text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2">
+            <i data-lucide="box" class="w-4 h-4 text-indigo-400"></i> Featured Unreal Engine Plugins (Fab)
+        </h2>
+        <div id="featured-plugins" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
+    </section>
+
+    <!-- Steam Games -->
+    <section id="games" class="space-y-6">
+        <h2 class="text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2">
+            <i data-lucide="rocket" class="w-4 h-4 text-indigo-400"></i> Commercial & Steam Experience
+        </h2>
+        <div id="steam-games" class="grid grid-cols-1 gap-4"></div>
+    </section>
+
+    <!-- Link to Academic Archive Page -->
+    <section id="academic" class="pt-8 border-t border-slate-800/80 text-center space-y-3">
+        <p class="text-sm text-slate-400">Looking for game jam entries and university student projects?</p>
+        <a href="academic.html" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-indigo-400 hover:text-indigo-300 text-sm font-semibold transition-all">
+            View Academic & Game Jam Archive <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </a>
+    </section>
+
+    <!-- Dedicated Contact Section -->
+    <section id="contact" class="pt-12 border-t border-slate-800/80 space-y-8">
+        <div class="space-y-2 text-center max-w-xl mx-auto">
+            <h2 class="text-2xl font-bold text-white">Let's Connect</h2>
+            <p class="text-slate-400 text-sm">
+                Feel free to reach out for professional inquiries, collaborations, or networking via any of the channels below.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
+            <!-- Email Card -->
+            <a href="mailto:fmorenojdev@gmail.com" class="p-5 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-indigo-500/50 flex flex-col items-center text-center space-y-3 transition-all group">
+                <div class="p-3 rounded-lg bg-indigo-500/10 text-indigo-400 group-hover:scale-110 transition-transform">
+                    <i data-lucide="mail" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-white text-sm">Email Me</h3>
+                    <p class="text-xs text-slate-400 mt-1">Send a message</p>
+                </div>
+            </a>
+
+            <!-- LinkedIn Card -->
+            <a href="https://www.linkedin.com/in/fmorenoj/" target="_blank" class="p-5 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-indigo-500/50 flex flex-col items-center text-center space-y-3 transition-all group">
+                <div class="p-3 rounded-lg bg-indigo-500/10 text-indigo-400 group-hover:scale-110 transition-transform">
+                    <!-- Inline LinkedIn SVG -->
+                    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </div>
+                <div>
+                    <h3 class="font-bold text-white text-sm">LinkedIn</h3>
+                    <p class="text-xs text-slate-400 mt-1">Connect professionally</p>
+                </div>
+            </a>
+
+            <!-- GitHub Card -->
+            <a href="https://github.com/wazyen" target="_blank" class="p-5 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-indigo-500/50 flex flex-col items-center text-center space-y-3 transition-all group">
+                <div class="p-3 rounded-lg bg-indigo-500/10 text-indigo-400 group-hover:scale-110 transition-transform">
+                    <!-- Inline GitHub SVG -->
+                    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                </div>
+                <div>
+                    <h3 class="font-bold text-white text-sm">GitHub</h3>
+                    <p class="text-xs text-slate-400 mt-1">Explore repositories</p>
+                </div>
+            </a>
+
+            <!-- Itch.io Card -->
+            <a href="https://wazyen.itch.io/" target="_blank" class="p-5 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-indigo-500/50 flex flex-col items-center text-center space-y-3 transition-all group">
+                <div class="p-3 rounded-lg bg-indigo-500/10 text-indigo-400 group-hover:scale-110 transition-transform">
+                    <i data-lucide="gamepad-2" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-white text-sm">Itch.io</h3>
+                    <p class="text-xs text-slate-400 mt-1">Check jam games</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pt-8 border-t border-slate-900 text-center text-slate-600 text-xs flex flex-col sm:flex-row justify-between items-center gap-4">
+        <p>&copy; <span id="current-year"></span> Fran Moreno Jiménez</p>
+        <p class="text-slate-500">Hosted on GitHub Pages</p>
+    </footer>
+</div>
+
+<!-- Scroll to Top Button -->
+<button id="scroll-to-top" aria-label="Scroll to top" class="fixed bottom-6 right-6 p-3 rounded-full bg-slate-900/90 border border-slate-700/80 text-indigo-400 hover:bg-indigo-600 hover:text-white shadow-xl transition-all duration-300 opacity-0 pointer-events-none z-50 focus:outline-none">
+    <i data-lucide="chevron-up" class="w-5 h-5"></i>
+</button>
+
+<!-- HTML Templates -->
+<template id="project-card-template">
+    <div class="project-card bg-slate-900/80 border border-slate-800 rounded-xl overflow-hidden flex flex-col justify-between hover:border-slate-700">
+        <div class="relative h-48 overflow-hidden bg-slate-950">
+            <img data-img src="" alt="" class="img-zoom w-full h-full object-cover">
+        </div>
+        <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
+            <div class="space-y-2">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <span data-subtitle class="text-xs font-semibold text-indigo-400 uppercase tracking-wider"></span>
+                        <h3 data-title class="text-xl font-bold text-white mt-0.5"></h3>
+                    </div>
+                    <span data-year class="text-xs bg-slate-800 text-slate-400 px-2.5 py-1 rounded-full font-mono"></span>
+                </div>
+                <p data-description class="text-slate-300 text-sm leading-relaxed"></p>
+            </div>
+            <div class="space-y-4">
+                <div data-tags class="flex flex-wrap gap-1.5"></div>
+                <div data-links class="pt-4 border-t border-slate-800/80 flex items-center justify-between"></div>
+            </div>
+        </div>
     </div>
+</template>
 
-    <!-- HTML TEMPLATES FOR JS CLONING -->
-    <template id="project-card-template">
-        <div class="project-card bg-slate-900/80 border border-slate-800 rounded-xl overflow-hidden flex flex-col justify-between hover:border-slate-700">
-            <div class="relative h-48 overflow-hidden bg-slate-950">
-                <img data-img src="" alt="" class="img-zoom w-full h-full object-cover">
-            </div>
-            <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                <div class="space-y-2">
-                    <div class="flex justify-between items-start">
-                        <div>
-                            <span data-subtitle class="text-xs font-semibold text-indigo-400 uppercase tracking-wider"></span>
-                            <h3 data-title class="text-xl font-bold text-white mt-0.5"></h3>
-                        </div>
-                        <span data-year class="text-xs bg-slate-800 text-slate-400 px-2.5 py-1 rounded-full font-mono"></span>
-                    </div>
-                    <p data-description class="text-slate-300 text-sm leading-relaxed"></p>
-                </div>
-                <div class="space-y-4">
-                    <div data-tags class="flex flex-wrap gap-1.5"></div>
-                    <div data-links class="pt-4 border-t border-slate-800/80 flex items-center justify-between"></div>
-                </div>
-            </div>
+<template id="game-card-template">
+    <div class="project-card bg-slate-900/40 border border-slate-800/60 rounded-xl overflow-hidden flex flex-col sm:flex-row hover:bg-slate-900/80">
+        <div class="sm:w-2/5 h-44 sm:h-auto relative overflow-hidden bg-slate-950 shrink-0">
+            <img data-img src="" alt="" class="img-zoom w-full h-full object-cover">
         </div>
-    </template>
-
-    <template id="game-card-template">
-        <div class="project-card bg-slate-900/40 border border-slate-800/60 rounded-xl overflow-hidden flex flex-col sm:flex-row hover:bg-slate-900/80">
-            <div class="sm:w-2/5 h-44 sm:h-auto relative overflow-hidden bg-slate-950 shrink-0">
-                <img data-img src="" alt="" class="img-zoom w-full h-full object-cover">
-            </div>
-            <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
-                <div class="space-y-1">
-                    <div class="flex justify-between items-center">
-                        <h3 data-title class="text-lg font-bold text-white"></h3>
-                        <span data-year class="text-xs font-mono text-slate-500"></span>
-                    </div>
-                    <span data-subtitle class="inline-block text-xs font-medium text-indigo-400"></span>
-                    <p data-description class="text-slate-400 text-xs leading-relaxed mt-2"></p>
+        <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <div class="space-y-1">
+                <div class="flex justify-between items-center">
+                    <h3 data-title class="text-lg font-bold text-white"></h3>
+                    <span data-year class="text-xs font-mono text-slate-500"></span>
                 </div>
-                <div data-links class="pt-3 border-t border-slate-800/40 flex justify-end"></div>
+                <span data-subtitle class="inline-block text-xs font-medium text-indigo-400"></span>
+                <p data-description class="text-slate-400 text-xs leading-relaxed mt-2"></p>
             </div>
+            <div data-links class="pt-3 border-t border-slate-800/40 flex justify-end"></div>
         </div>
-    </template>
+    </div>
+</template>
 
-    <script type="module" src="js/main.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        if (window.lucide) {
+            lucide.createIcons();
+        }
+
+        const scrollTopBtn = document.getElementById('scroll-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                scrollTopBtn.classList.remove('opacity-0', 'pointer-events-none');
+                scrollTopBtn.classList.add('opacity-100');
+            } else {
+                scrollTopBtn.classList.add('opacity-0', 'pointer-events-none');
+                scrollTopBtn.classList.remove('opacity-100');
+            }
+        });
+
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    });
+</script>
+<script type="module" src="js/main.js"></script>
 </body>
 </html>

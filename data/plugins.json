@@ -1,26 +1,24 @@
 [
-  {
-    "id": "portals-plugin",
-    "title": "Portals Modular Plugin",
-    "subtitle": "Master's Thesis Project",
-    "year": "2024",
-    "tags": ["Unreal Engine", "C++", "Graphics/Math", "Modular Architecture"],
-    "description": "High-performance modular portals system built for Unreal Engine. Features continuous spatial seamless transitions, render target recursion handling, dynamic physics re-orientation, and camera clipping prevention.",
-    "thumbnail": "assets/images/plugins/portal-plugin.jpg",
-    "links": {
-      "Fab Listing": "https://www.fab.com/listings/439d5b1b-ec6f-4779-b324-1f03d5cc219c"
-    }
-  },
-  {
-    "id": "quests-plugin",
-    "title": "Modular Quests System Plugin",
-    "subtitle": "Production-grade Plugin",
-    "year": "2023",
-    "tags": ["Unreal Engine", "C++", "Data-Driven", "Systems Architecture"],
-    "description": "Flexible, reusable quests and objective management framework designed for production games. Integrated and battle-tested in commercial Steam titles including 'The Prison' and 'Bion Clash'.",
-    "thumbnail": "assets/images/plugins/quest-plugin.jpg",
-    "links": {
-      "Fab Listing": "https://www.fab.com/listings/f2faecb6-5d16-460a-ad68-e37b30a0dcc9"
-    }
-  }
+	{
+		"title": "Portals Plugin",
+		"subtitle": "Master's Thesis Project",
+		"year": "2023",
+		"tags": ["Unreal Engine", "C++", "Graphics/Math", "Modular Architecture"],
+		"description": "High-performance modular portals system built for Unreal Engine. Features continuous spatial seamless transitions, render target recursion handling, dynamic physics re-orientation, and camera clipping prevention.",
+		"thumbnail": "assets/images/plugins/portals-plugin.jpg",
+		"links": {
+			"Fab Listing": "https://www.fab.com/listings/439d5b1b-ec6f-4779-b324-1f03d5cc219c"
+		}
+	},
+	{
+		"title": "Quests System Plugin",
+		"subtitle": "Production-grade Plugin",
+		"year": "2024",
+		"tags": ["Unreal Engine", "C++", "Data-Driven", "Systems Architecture"],
+		"description": "Flexible, reusable quests and objective management framework designed for production games. Integrated and battle-tested in commercial Steam titles including 'The Prison' and 'Bion Clash'.",
+		"thumbnail": "assets/images/plugins/quest-plugin.jpg",
+		"links": {
+			"Fab Listing": "https://www.fab.com/listings/f2faecb6-5d16-460a-ad68-e37b30a0dcc9"
+		}
+	}
 ]
