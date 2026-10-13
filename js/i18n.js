@@ -4,8 +4,8 @@ export const DEFAULT_LANGUAGE = 'en';
 export const translations = {
 	en: {
 		// Meta & Nav
-		"meta.title.index": "Fran | Unreal Engine & C++ Software Engineer",
-		"meta.title.academic": "Academic & Game Jam Archive | Fran Moreno",
+		"meta.title.index": "Fran | Home",
+		"meta.title.academic": "Fran | Academic & Jams",
 		"nav.portfolio": "Portfolio",
 		"nav.plugins": "Plugins",
 		"nav.games": "Commercial Games",
@@ -14,7 +14,7 @@ export const translations = {
 
 		// Hero
 		"hero.name": "Fran Moreno Jiménez",
-		"hero.subtitle": "Unreal Engine Specialist & Senior C++ Software Engineer",
+		"hero.subtitle": "Senior C++ Software Engineer & Unreal Engine Expert",
 		"hero.bio1": "Fran is a software engineer with <strong>5+ years of professional experience</strong> designing and shipping video games and interactive applications using <strong>Unreal Engine & C++</strong>. He specializes in low-level systems architecture, building modular, reusable plugins, and crafting responsive UE User Interfaces.",
 		"hero.bio2": "Beyond game development, he brings strong full-stack and backend capabilities:",
 		"hero.skill1": "Backend system development with <strong>.NET</strong>",
@@ -54,8 +54,8 @@ export const translations = {
 	},
 	es: {
 		// Meta & Nav
-		"meta.title.index": "Fran | Ingeniero de Software Unreal Engine & C++",
-		"meta.title.academic": "Archivo Académico & Game Jams | Fran Moreno",
+		"meta.title.index": "Fran | Inicio",
+		"meta.title.academic": "Fran | Académico & Jams",
 		"nav.portfolio": "Portafolio",
 		"nav.plugins": "Plugins",
 		"nav.games": "Juegos Comerciales",
@@ -64,7 +64,7 @@ export const translations = {
 
 		// Hero
 		"hero.name": "Fran Moreno Jiménez",
-		"hero.subtitle": "Especialista en Unreal Engine & Ingeniero de Software C++ Senior",
+		"hero.subtitle": "Ingeniero de Software C++ Senior & Experto en Unreal Engine",
 		"hero.bio1": "Fran es un ingeniero de software con <strong>más de 5 años de experiencia profesional</strong> diseñando y lanzando videojuegos y aplicaciones interactivas usando <strong>Unreal Engine y C++</strong>. Se especializa en arquitectura de sistemas de bajo nivel, desarrollo de plugins modulares y reutilizables, y creación de interfaces de usuario responsivas en UE.",
 		"hero.bio2": "Más allá del desarrollo de videojuegos, aporta sólidas capacidades full-stack y backend:",
 		"hero.skill1": "Desarrollo de sistemas backend con <strong>.NET</strong>",
@@ -104,8 +104,8 @@ export const translations = {
 	},
 	ca: {
 		// Meta & Nav
-		"meta.title.index": "Fran | Enginyer de Software Unreal Engine & C++",
-		"meta.title.academic": "Arxiu Acadèmic & Game Jams | Fran Moreno",
+		"meta.title.index": "Fran | Inici",
+		"meta.title.academic": "Fran | Acadèmic & Jams",
 		"nav.portfolio": "Portafoli",
 		"nav.plugins": "Plugins",
 		"nav.games": "Jocs Comercials",
@@ -114,7 +114,7 @@ export const translations = {
 
 		// Hero
 		"hero.name": "Fran Moreno Jiménez",
-		"hero.subtitle": "Especialista en Unreal Engine & Enginyer de Software C++ Senior",
+		"hero.subtitle": "Enginyer de Software C++ Senior & Expert en Unreal Engine",
 		"hero.bio1": "En Fran és un enginyer de software amb <strong>més de 5 anys d'experiència professional</strong> dissenyant i publicant videojocs i aplicacions interactives amb <strong>Unreal Engine i C++</strong>. S'especialitza en arquitectura de sistemes de baix nivell, desenvolupament de plugins modulars i reutilitzables, i creació d'interfícies d'usuari responsives a UE.",
 		"hero.bio2": "Més enllà del desenvolupament de videojocs, aporta sòlides capacitats full-stack i backend:",
 		"hero.skill1": "Desenvolupament de sistemes backend amb <strong>.NET</strong>",
