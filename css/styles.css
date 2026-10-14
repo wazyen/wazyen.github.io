@@ -7,6 +7,12 @@ body {
   transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
+.project-thumbnail {
+  aspect-ratio: 16 / 9;
+  align-self: flex-start;
+  flex: 0 0 auto;
+}
+
 .project-card:hover {
   transform: translateY(-2px);
 }
